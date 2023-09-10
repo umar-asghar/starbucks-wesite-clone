@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    background-color:rgb(250, 246, 241);
+    width: 100%;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.left ul li {
+    display: flex;
+    align-items: center;
+    
+}
+.left ul li a {
+    text-decoration: double;
+    font-size:14px;
+    font-weight:bolder;
+    margin-left: 40px;
+    color: black;
+
+}
+.left ul li a img{
+    width: 50px;
+}
+
+.right ul li{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+
+}
+.right ul li a{
+    display: inline-block;
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+
+
+}
+.right ul li a button{
+    padding: 5px;
+    width:90px;
+    border:solid 1px;
+    border-radius: 20px;
+    
+}
+.right ul li a h5{
+    margin-right: 25px;
+
+}
+#signin{
+    margin-right: -12px;
+    width: 75px;
+}
+.right ul li a img {
+    width: 55px;
+    margin-right: -40px;
+}
+.first{
+    background-color:rgb(42, 96, 64);
+    height: 90vh;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+
+}
+.fl img{
+    margin-top: 7px;
+    height: 90vh;
+    width:105vh ;
+}
+.fr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 100px;
+}
+.fr h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: aliceblue;
+    font-size: 3rem;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.fr h2{
+    color: aliceblue;
+
+}
+.fr button{
+    padding: 8px;
+    width: 120px;
+    background: transparent;
+    color: aliceblue;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-top: 40px;
+}
+.fr button:hover{
+    background-color: rgb(11, 65, 28);
+    cursor: pointer;
+
+
+}
+.second{
+    background-color: rgb(156, 65, 91);
+    height: 90vh;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+
+}
+.sl img{
+    margin-top: 7px;
+    height: 90vh;
+    width:105vh ;
+}
+.sr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 100px;
+}
+.sr h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: aliceblue;
+    font-size: 3rem;
+    margin-top: -50px;
+    margin-left: -75px;
+    margin-bottom: 50px;
+}
+.sr h2{
+    color: aliceblue;
+    font-weight:lighter;
+
+}
+.sr button{
+    padding: 8px;
+    width: 120px;
+    background: transparent;
+    color: aliceblue;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-top: 40px;
+}
+.sr button:hover{
+    background-color: rgb(147, 38, 69);
+    cursor: pointer;
+
+}
+.third{
+    background-color: rgb(203, 153, 59);
+    height: 90vh;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+
+}
+.tl img{
+    margin-top: 7px;
+    height: 90vh;
+    width:105vh ;
+}
+.tr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 100px;
+}
+.tr h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 3rem;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.tr button{
+    padding: 8px;
+    width: 120px;
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-top: 40px;
+}
+.tr button:hover{
+    background-color: rgb(165, 113, 17);
+    cursor: pointer;
+
+
+}
+.forth{
+    background-color: rgb(22, 56, 27);
+    height: 60vh;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+
+}
+.fol img{
+    margin-top: 7px;
+    height: 60vh;
+    width:105vh ;
+}
+.for {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 100px;
+}
+.for h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: aliceblue;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.for h4{
+    color: aliceblue;
+
+}
+.for button{
+    padding: 8px;
+    width: 120px;
+    background: transparent;
+    color: aliceblue;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-top: 40px;
+}
+.for button:hover{
+    background-color: rgb(7, 40, 17);
+    cursor: pointer;
+
+
+}
+.fifth{
+    background-color: rgb(210, 219, 88);
+    height: 60vh;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+
+}
+.fil img{
+    margin-top: 7px;
+    height: 60vh;
+    width:105vh ;
+}
+.fir {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 100px;
+}
+.fir h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.fir button{
+    padding: 8px;
+    width: 120px;
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-top: 40px;
+}
+.fir button:hover{
+    background-color: rgb(187, 199, 20);
+    cursor: pointer;
+
+
+}
+.sixth{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.sixth p{
+    margin-left: 50vh;
+    margin-right:  50vh;
+}
+footer{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+    height: 90vh;
+}
+.p1, .p2, .p3, .p4, .p5{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+footer a{
+    text-decoration: double;
+    color: gray;
+}
